@@ -6,6 +6,7 @@ module "Production" {
   role_iam = "production"
   profile = "production"
   environment = "production"
+  cluster_name = "production"
 }
 
 output "IP_alb" {
